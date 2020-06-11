@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+/** --FOR DESKTOP- 960px start--**/
+@media screen and (max-width: 960px) {
+
+    .buttonWrapper {
+        display: inline-block;
+        position: relative;
+        bottom: 250px;
+    }
+
+    .buttonWrapper > div {
+        position: relative;
+        top: 40px;
+        left: 30px;
+        margin-top: 15px
+    }
+}
+
+/** --FOR DESKTOP- 960px end--**/
+
+
+
+/** --For MOBILE 375px start--**/
+
+@media screen and (min-width: 375px) {
+    .customButton {
+        background-color: red;
+        color: white;
+        border: 2px solid #008CBA;
+        border-radius: 4px;
+        height: 30px;
+        width: 100px;
+    }
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 100px;
+    /* Should be removed. Only for demonstration */
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    width: 80%;
+    display: inline-block;
+}
+
+.container {
+    height: 350px;
+    width: 100%;
+    background-color: #EFEFEF;
+}
+
+.customButton {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+}
+
+.customButton:hover {
+    background-color: #FFF;
+    color: black;
+}
+
+.buttonWrapper {
+    display: inline-block;
+    position: relative;
+    bottom: 250px;
+}
+
+.buttonWrapper > div {
+    position: relative;
+    top: 40px;
+    left: 30px;
+    margin-top: 15px
+}
+
+#list > div {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+}
